@@ -1,0 +1,248 @@
+
+
+//Bootstrap's  color
+$primary: #ff6347; 
+$secondary: #6c757d;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #245c51;
+
+
+
+
+html, body {
+  height: 100%;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+  }
+  
+  .bg-custom {
+    background-color: #2f4f4f; 
+  }
+  
+  .btn-custom {
+    background-color: #ff6347; 
+    color: white;
+    border-radius: 0.25rem;
+  }
+  
+  .icon-custom {
+    font-size: 2.5rem; 
+    color: white;
+    cursor: pointer;
+    background-color: rgb(108, 117, 125,0.5);
+    border-radius:5rem;
+    padding: 6px;
+  }
+  .icon-custom:hover {
+    background-color: #ec7762;
+  }
+  
+  .form-control {
+    border: none;
+    background-color: #f8f9fa;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #ced4da;
+  }
+  
+  
+  .navbar-nav .nav-link {
+    position: relative;
+    color: white;
+    transition: color 0.3s ease;
+  
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ff6347;
+  }
+
+  .navbar-nav a:hover{
+    color: #ff6347;
+
+  }
+
+  .nav-item:hover{
+    color: #ff6347;
+  }
+
+
+  
+
+  .navbar-nav .nav-link:hover::after {
+   color:black;  
+  }
+
+  .customDropmenuClass a:hover{
+    background-color: rgb(172, 169, 169);
+    color: #f37660;
+  }
+  .dropdown-item:hover{
+    background-color: rgb(180, 178, 178);
+    color: green;
+  }
+
+.search-form {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color:#ff6347 ;
+  font-size: 1.2rem;
+}
+
+
+
+
+.NavItemSpan:hover{
+  color: #ff6347;
+}
+
+
+
+
+//Landing Page
+
+
+.LandingPageOutter{
+  background-color: #245c51;
+ height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  overflow: hidden;
+
+}
+.LandingPageInner {
+  background-color: #245c51;
+  z-index: 2;
+  padding: 0; 
+  margin: 0;
+}
+
+p {
+  color: white;
+  
+}
+
+.LandingPageImgDIV {
+  position: relative; 
+  z-index: 3;
+}
+
+.landingpageImg{
+  z-index: 4;
+  position: relative;
+left:80px;
+top: 125px;
+padding: 2px;
+}
+img{
+  height:100%;
+}
+
+.LandingPageInnerContentDIV{
+
+  max-width: 60%;
+}
+.LandingPageInnerContentDivSpan{
+  color: #ff6347;
+}
+
+.LandingPageInnerContentDIVSecond{
+  align-items: center;
+}
+
+
+.CustomLetterSpacing{
+  letter-spacing: 0.5px;
+  word-spacing: 1px
+}
+
+.SecondLandingPageInnerDIV{
+  height: 100vh;
+  width: 100vw;
+}
+.SecondLandingPageUpperDIV{
+
+}
+
+.SecondLandingPageUpperDIV{}
+
+
+// Card
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #f0efef;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #245c51;
+  color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+
+.icon-container:hover {
+  background-color: #ff6347;
+  transform: translateY(-10px);
+}
+
+.icon {
+  transition: transform 0.1s;
+}
+
+.icon-container:hover .icon {
+  transform: translateY(-10px);
+}
+
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: black;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.1rem;
+  font-size: 15px;
+}
+
+.card-note {
+  color: #666;
+  font-style: italic;
+}
+
+
+
+  
+// Import Bootstrap's SCSS
+@import '~bootstrap/scss/bootstrap';
