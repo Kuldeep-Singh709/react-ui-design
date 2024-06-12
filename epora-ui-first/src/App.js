@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import LandingPage from './pages/LandingPage';
 import './custom.scss'
 import SecondLandingPage from './pages/SecondLandingPage';
+import ThirdLandingPage from './pages/ThirdLandingPage';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Navbar />
    <LandingPage/>
    <SecondLandingPage/>
+   <ThirdLandingPage/>
     </div>
   );
 }

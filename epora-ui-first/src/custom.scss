@@ -243,6 +243,134 @@ img{
 
 
 
+//Third Landing Page
+
+.landing-page-container {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.ThirdLandingPageRHSPara{
+  letter-spacing: 0.07em;
+  font-size: 18px;
+}
+
+
+.imgContainer{
+
+  height: 800px;
+}
+
+
+.main-image {
+  position: absolute;
+  left:2%;
+  z-index: 2;
+  height: 88%;
+  width: 85%;
+  margin: 30px 30px 30px 50px;
+}
+
+//FirstWomanImage
+.image-1 {
+  position: absolute;
+  top: 65%;
+  right: 2%;
+  z-index: 5;
+  width: 30%;
+  color: rgb(40, 167, 69,1);
+  height: 200px;
+}
+
+.SecondWomanImage{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0% { top: 100px;}
+  100% { top: 110px; }
+}
+
+
+//LineImage
+.image-2 {
+  z-index: 1;
+  position: relative;
+  top: 50%;
+  left: 10%;
+  height: 85%;
+  width: 70%;
+}
+
+//WaterWaveImage
+.image-3 {
+  top: 40%;
+  left: 5%;
+  z-index: 3;
+  width: 25%;
+  height: 150px;
+
+}
+
+//SignalWaveImage
+.image-4 {
+  position: absolute;
+  top: -4%;
+  right: -5%;
+  z-index: 4;
+  width: 17%;
+  height: 80px;
+  transform: rotate(10deg);
+}
+
+
+//SecondWomanImage
+.image-5{
+  position: absolute;
+  top: 15%;
+  right: 0;
+  z-index: 6;
+  width: 32%;
+  height: 200px;
+  transform: rotate(-3deg);
+}
+
+
+.text-section h6 {
+  color: #ff6347;
+  font-weight: bold;
+}
+
+.text-section h1 {
+  color: #000;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.text-section p {
+  color: #666;
+  margin: 1rem 0;
+}
+
+.text-section .btn {
+  background-color: #ff6347;
+  border-color: #ff6347;
+  color: #fff;
+}
+
+
+.Random-1{
+max-height: 100px;
+width: 100%;
+}
+
   
 // Import Bootstrap's SCSS
 @import '~bootstrap/scss/bootstrap';
